@@ -4,6 +4,32 @@
   src: url("./Hack.ttf");
 }
 
+body {
+    background: var(--background);
+    background-image: url(https://source.unsplash.com/1600x900/?pattern);
+    padding: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%, -50%);
+    background-color: #000000a6;
+    padding: 4%;
+    border-radius: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 :root {
   --font: "Roboto Mono";
   /* --background: var(--background); */
